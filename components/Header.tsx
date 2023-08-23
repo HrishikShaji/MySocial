@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className=" bg-neutral-900 text-white fixed px-10 items-center top-0 py-2 w-full justify-between flex">
+    <div className=" bg-neutral-900 text-white fixed z-50 px-10 items-center top-0 h-[50px] w-full justify-between flex">
       <Link href="/" className="text-lg font-semibold">
         MySocialAPP
       </Link>

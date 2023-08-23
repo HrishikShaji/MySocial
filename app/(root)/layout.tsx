@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen bg-neutral-800 flex  ">
+      <body className="w-full bg-neutral-800 flex  ">
         <div className="">
           <Header />
         </div>

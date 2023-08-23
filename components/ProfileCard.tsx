@@ -3,7 +3,7 @@ import React from "react";
 const ProfileCard = () => {
   return (
     <div className="flex flex-col w-full h-full px-10 pb-10 gap-28">
-      <div className="bg-black w-full relative h-[30%] flex justify-center rounded-md">
+      <div className="bg-black w-full relative h-[200px] flex justify-center rounded-md">
         <div className="h-40 w-40 bg-neutral-700 rounded-full absolute -bottom-20" />
       </div>
       <div className="text-white flex flex-col gap-8">

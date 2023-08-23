@@ -6,8 +6,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="pt-20 px-5 w-full flex flex-col gap-10">
-      <div className="flex justify-around w-full text-white">
+    <div className="pt-[50px]  w-full flex flex-col  ">
+      <div className="flex justify-around items-center h-[50px] bg-neutral-700 sticky top-[50px] w-full text-white">
         <Link href="/friends">Your Friends</Link>
         <Link href="/friends/suggested">Suggested Friends</Link>
       </div>
